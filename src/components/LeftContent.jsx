@@ -86,7 +86,7 @@ const LeftContent = () => {
             <p className='text-gray-600'>Choose your favourite dishes and add them to cart</p>
         </div>
         
-        <div className='flex flex-wrap justify-between gap-15'>
+        <div className='flex flex-wrap justify-between gap-5'>
             {foods.map((elem, index) =>(
               <Cards key={index}
                   img={elem.img} 

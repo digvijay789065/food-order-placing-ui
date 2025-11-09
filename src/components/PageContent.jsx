@@ -1,14 +1,18 @@
-import React from 'react'
-import LeftContent from './LeftContent'
-import RightContent from './RightContent'
+import React from "react";
+import LeftContent from "./LeftContent";
+import RightContent from "./RightContent";
+import HeroSection from "./HeroSection";
 
 const PageContent = () => {
   return (
-    <div className='flex justify-between mr-10'>
+    <div className="w-full">
+        <HeroSection />
+      <div className="flex justify-between mr-10">
         <LeftContent />
-        <RightContent />
+        {/* <RightContent /> */}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default PageContent
+export default PageContent;
