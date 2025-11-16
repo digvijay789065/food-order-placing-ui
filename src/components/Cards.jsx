@@ -17,7 +17,7 @@ const Cards = (props) => {
 
   return (
     <div className="drop-shadow-2xl">
-      <div className="h-80 w-[320px] bg-white flex flex-col justify-between rounded-xl overflow-hidden hover:scale-105 transition-transform duration-300 ease-out">
+      <div className="h-80 w-[320px] bg-white flex flex-col justify-between rounded-xl overflow-hidden hover:scale-115 transition-transform duration-300 ease-out">
         
         <div>
           <img
@@ -35,7 +35,7 @@ const Cards = (props) => {
 
           <div className="flex justify-between">
             <div>
-              <h4 className="font-bold text-green-500 text-xl">
+              <h4 className="font-semibold text-green-500 text-lg">
                 {'\u20B9'}{props.price}
               </h4>
             </div>

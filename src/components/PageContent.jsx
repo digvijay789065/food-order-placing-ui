@@ -2,11 +2,12 @@ import React from "react";
 import LeftContent from "./LeftContent";
 import RightContent from "./RightContent";
 import HeroSection from "./HeroSection";
+import Navbar from "./Navbar";
 
 const PageContent = () => {
   return (
     <div className="w-full">
-        <HeroSection />
+      <Navbar />
       <div className="flex justify-between mr-10">
         <LeftContent />
         {/* <RightContent /> */}
