@@ -1,4 +1,5 @@
-  import React from 'react'
+import React from 'react'
+import { Link } from "react-router-dom";
 
   const Bottom = ({ items, price }) => {
     return (
@@ -12,7 +13,8 @@
              </div>
            </div>
            <div className='bg-white text-green-600 rounded-full px-5 py-2 ml-[450px] font-bold h-[12] w-43 text-2xl'>
-            <h4><button className='cursor-pointer active:scale-95 transition'>Place Order</button></h4>
+            <button
+             className='cursor-pointer active:scale-95 transition'><a href="/PlaceOrder.jsx">Place Order</a></button>
            </div>
           </div>
          </div>    
