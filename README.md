@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Foodie 🍕
 
 A clean and responsive food-ordering UI built with React 19 and Tailwind CSS. Browse through a curated menu, add items to your cart, and explore exciting coupon offers!

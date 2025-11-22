@@ -14,8 +14,8 @@ const Header = () => {
                   
        {/* log in and sign up button */}
        <div className='flex items-center gap-5'>
-        <h4 className='text-white active:scale-95 font-bold drop-shadow-2xl drop-shadow-black mr-3'><a href="">Contact</a></h4>
-        <h4 className='text-white active:scale-95 font-bold drop-shadow-2xl drop-shadow-black mr-8'><a href="">About Us</a></h4>
+        <h4 className='text-white active:scale-95 font-bold drop-shadow-2xl drop-shadow-black mr-3 hidden md:block'><a href="">Contact</a></h4>
+        <h4 className='text-white active:scale-95 font-bold drop-shadow-2xl drop-shadow-black mr-8 hidden md:block'><a href="">About Us</a></h4>
         <button className='text-white active:scale-98 font-bold text-xl rounded-xl border-2 px-4 py-2 drop-shadow-xl drop-shadow-black/30'>Log in</button>
         <button className='text-white active:scale-98 bg-black border-black font-bold text-xl rounded-xl border-2 px-3 py-2 flex items-center gap-2 drop-shadow-2xl'>Sign Up<MdArrowOutward /></button>
        </div>

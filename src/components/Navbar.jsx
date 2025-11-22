@@ -11,7 +11,7 @@ const Navbar = () => {
      <div className='relative h-[95vh] w-full bg-yellow-400'>
       <Header />
           
-      <div className='flex items-center justify-center gap-5 mt-10 drop-shadow-2xl drop-shadow-black/30'>
+      <div className='flex flex-col md:flex-row items-center justify-center gap-5 mt-10'>
        <SearchBar />
        <LocationBar />            
       </div>
