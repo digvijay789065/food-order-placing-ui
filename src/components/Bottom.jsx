@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import PlaceOrder from './PlaceOrder';
 
   const Bottom = ({ items, price }) => {
     return (
@@ -14,10 +16,13 @@ import { Link } from "react-router-dom";
            </div>
            <div className='bg-white text-green-600 rounded-full px-5 py-2 ml-[450px] font-bold h-[12] w-43 text-2xl'>
             <button
-             className='cursor-pointer active:scale-95 transition'><a href="/PlaceOrder.jsx">Place Order</a></button>
+             className='cursor-pointer active:scale-95 transition'><a href="/placeorder">Place Order</a></button>
            </div>
           </div>
-         </div>    
+         </div>
+         <Routes>
+          <Route path='/placeorder' element={<PlaceOrder />} />
+         </Routes>
         </div>
     )
   }

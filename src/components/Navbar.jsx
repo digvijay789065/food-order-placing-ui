@@ -1,8 +1,8 @@
-import Header from './Navbar/Header';
+import Header from './Header';
 import Card1 from "./Navbar/Cards/Card1";
 import Card2 from "./Navbar/Cards/Card2";
 import SearchBar from "./Navbar/SearchBar";
-import LocationBar from './Navbar/Cards/LocationBar';
+import LocationBar from './Navbar/LocationBar';
 import { RiArrowUpDoubleLine } from "react-icons/ri";
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
        <Card1 />
        <Card2 />
       </div>
-      <div className='flex text-4xl items-center justify-center'>
+      <div className='flex text-4xl items-center justify-center text-white'>
         <RiArrowUpDoubleLine />
       </div>
      </div>
