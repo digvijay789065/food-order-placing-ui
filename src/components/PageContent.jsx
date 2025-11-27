@@ -1,10 +1,34 @@
 import React from "react";
 import LeftContent from "./LeftContent";
 import RightContent from "./RightContent";
-import HeroSection from "./HeroSection";
 import Navbar from "./Navbar";
-
+import BigCards from "./BigCards";
+import Burger from '..//../public/images/burger.png'
+import Pizza from '..//../public/images/pizza.png'
+import HotChoco from '..//../public/images/hotchocolate.png'
 const PageContent = () => {
+
+const items =[
+        {
+            img: Burger,
+            title:"Ultimate Cheezi Supreme Veggie Burger",
+            alt: "burger",
+            description: "Loaded with molten cheese, crispy veggies, and layers that drip temptation!"
+        },
+        {
+            img: Pizza,
+            title:"Ultra Cheezy Paradise Pizza",
+            alt: "pizza",
+            description: "A molten wave of stretchy cheese that pulls like it’s begging you to take that bite!"
+        },
+        {
+            img: HotChoco,
+            title:"Cocoa Burst Supreme Hot Chocolate",
+            alt: "hot chocolate",
+            description: "A wild rush of molten chocolate that hits like a sweet explosion in every sip!"
+        }
+    ]
+
   return (
     <div className="w-full">
       <Navbar />
@@ -12,6 +36,9 @@ const PageContent = () => {
         <LeftContent />
         {/* <RightContent /> */}
       </div>
+        <BigCards
+        items={items}
+        />
     </div>
   );
 };

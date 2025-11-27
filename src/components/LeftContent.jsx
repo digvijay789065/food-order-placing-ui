@@ -182,7 +182,7 @@ const LeftContent = () => {
   }
 
   return (
-    <div className='relative p-10 flex flex-col gap-10 '>
+    <div className='relative p-10 flex flex-col flex-wrap gap-10 '>
         <div className='flex items-center justify-between'>
             <div>
             <h4 className='text-2xl font-bold'>Chinese</h4>

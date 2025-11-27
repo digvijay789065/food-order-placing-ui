@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Card2 = () => {
   return (
-    <div>
+    <div className=''>
      <div className='h-80 overflow-hidden w-[540px] bg-white rounded-2xl drop-shadow-2xl flex flex-col justify-between'>
       <div className='p-5'>
        <h1 className='text-3xl font-bold'>PURE VEGETARIAN</h1>

@@ -47,7 +47,7 @@ const Cards = (props) => {
               <div  
                 onClick={RemoveNum}
                 className="h-6 w-6 flex justify-center items-center bg-black text-white rounded-sm font-bold text-lg cursor-pointer hover:bg-gray-800 active:scale-90 transition">
-                <button>-</button>
+                <button className="outline-none">-</button>
               </div>
 
               <div className="h-6 w-6 px-2 bg-black text-white rounded-xs font-bold">
@@ -57,7 +57,7 @@ const Cards = (props) => {
               <div  
                 onClick={AddNum}
                 className="h-6 w-6 flex justify-center items-center bg-black text-white rounded-sm font-bold text-lg cursor-pointer hover:bg-gray-800 active:scale-90 transition">
-                <button>+</button>
+                <button className="outline-none">+</button>
               </div>
             </div>
           </div>
