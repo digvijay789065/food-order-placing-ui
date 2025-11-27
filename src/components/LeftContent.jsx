@@ -189,7 +189,9 @@ const LeftContent = () => {
             <p className='text-gray-600'>A world of flavors in every chopstick pick!</p>
             </div>
             <div>
-              <button onClick={handleChineseInc} onDoubleClick={handleChineseDec} className="bg-white drop-shadow-xl active:scale-97 hover:bg-gray-100 drop-shadow-black/15 rounded-2xl h-10 w-16 flex items-center justify-center">
+              <button onClick={handleChineseInc} onDoubleClick={handleChineseDec} 
+              className="bg-white drop-shadow-xl active:scale-97 hover:bg-gray-100 
+              drop-shadow-black/15 rounded-2xl h-10 w-16 flex items-center justify-center">
                 Sort <FaSort />
               </button>
             </div>
@@ -206,7 +208,8 @@ const LeftContent = () => {
                   onRemove={handleRemove}/>
             ))}
         </div>
-            <div className={`fixed bottom-5 left-1/2 -translate-x-1/2 w-[90%] md:w-auto transition-all duration-500 ease-in-out transform z-50 
+            <div className={`fixed bottom-5 left-1/2 -translate-x-1/2 w-[90%] 
+            md:w-auto transition-all duration-500 ease-in-out transform z-50 
               ${totalItems > 0 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}>
               <Bottom items={totalItems} price={totalPrice} />  
             </div>
@@ -216,7 +219,9 @@ const LeftContent = () => {
             <p className='text-gray-600'>Where every bite feels like a warm desi hug!</p>
             </div>
             <div>
-              <button onClick={handlePunjabiInc} onDoubleClick={handlePunjabiDec} className="bg-white drop-shadow-xl active:scale-97 hover:bg-gray-100 drop-shadow-black/15 rounded-2xl h-10 w-16 flex items-center justify-center">
+              <button onClick={handlePunjabiInc} onDoubleClick={handlePunjabiDec} 
+              className="bg-white drop-shadow-xl active:scale-97 hover:bg-gray-100 
+              drop-shadow-black/15 rounded-2xl h-10 w-16 flex items-center justify-center">
                 Sort <FaSort />
               </button>
             </div>
@@ -233,7 +238,8 @@ const LeftContent = () => {
                   onRemove={handleRemove}/>
             ))}
         </div>
-            <div className={`fixed bottom-5 left-1/2 -translate-x-1/2 w-[90%] md:w-auto transition-all duration-500 ease-in-out transform z-50 
+            <div className={`fixed bottom-5 left-1/2 -translate-x-1/2 w-[90%]
+             md:w-auto transition-all duration-500 ease-in-out transform z-50 
               ${totalItems > 0 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}>
               <Bottom items={totalItems} price={totalPrice} />  
             </div>
@@ -244,7 +250,9 @@ const LeftContent = () => {
            <p className='text-gray-600'>Where every bite feels like a coastal breeze!</p>
           </div>
           <div>
-           <button onClick={handleSouthIndInc} onDoubleClick={handleSouthIndDec} className="bg-white drop-shadow-xl active:scale-97 hover:bg-gray-100 drop-shadow-black/15 rounded-2xl h-10 w-16 flex items-center justify-center">
+           <button onClick={handleSouthIndInc} onDoubleClick={handleSouthIndDec} 
+           className="bg-white drop-shadow-xl active:scale-97 hover:bg-gray-100 drop-shadow-black/15 
+           rounded-2xl h-10 w-16 flex items-center justify-center">
             Sort <FaSort />
            </button>
           </div>
@@ -260,7 +268,8 @@ const LeftContent = () => {
                   onRemove={handleRemove}/>
             ))}
         </div>
-            <div className={`fixed bottom-5 left-1/2 -translate-x-1/2 w-[90%] md:w-auto transition-all duration-500 ease-in-out transform z-50 
+            <div className={`fixed bottom-5 left-1/2 -translate-x-1/2 w-[90%] md:w-auto 
+            transition-all duration-500 ease-in-out transform z-50 
               ${totalItems > 0 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}>
               <Bottom items={totalItems} price={totalPrice} />  
             </div>
@@ -271,7 +280,9 @@ const LeftContent = () => {
            <p className='text-gray-600'>Where sweetness meets simplicity!</p>
           </div>
           <div>
-           <button onClick={handleGujratiInc} onDoubleClick={handleGujratiDec} className="bg-white drop-shadow-xl active:scale-97 hover:bg-gray-100 drop-shadow-black/15 rounded-2xl h-10 w-16 flex items-center justify-center">
+           <button onClick={handleGujratiInc} onDoubleClick={handleGujratiDec} 
+           className="bg-white drop-shadow-xl active:scale-97 hover:bg-gray-100 
+           drop-shadow-black/15 rounded-2xl h-10 w-16 flex items-center justify-center">
             Sort <FaSort />
            </button>
           </div>
@@ -287,7 +298,8 @@ const LeftContent = () => {
                   onRemove={handleRemove}/>
             ))}
         </div>
-            <div className={`fixed bottom-5 left-1/2 -translate-x-1/2 w-[90%] md:w-auto transition-all duration-500 ease-in-out transform z-50 
+            <div className={`fixed bottom-5 left-1/2 -translate-x-1/2 w-[90%] md:w-auto 
+            transition-all duration-500 ease-in-out transform z-50 
               ${totalItems > 0 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}>
               <Bottom items={totalItems} price={totalPrice} />  
             </div>

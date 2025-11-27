@@ -17,7 +17,8 @@ const Cards = (props) => {
 
   return (
     <div className="drop-shadow-2xl">
-      <div className="h-80 w-[320px] bg-white flex flex-col justify-between rounded-xl overflow-hidden hover:scale-115 transition-transform duration-300 ease-out">
+      <div className="h-80 w-[320px] bg-white flex flex-col justify-between 
+      rounded-xl overflow-hidden hover:scale-103 transition-transform duration-300 ease-out">
         
         <div>
           <img
@@ -46,7 +47,8 @@ const Cards = (props) => {
             
               <div  
                 onClick={RemoveNum}
-                className="h-6 w-6 flex justify-center items-center bg-black text-white rounded-sm font-bold text-lg cursor-pointer hover:bg-gray-800 active:scale-90 transition">
+                className="h-6 w-6 flex justify-center items-center bg-black text-white 
+                rounded-sm font-bold text-lg cursor-pointer hover:bg-gray-800 active:scale-90 transition">
                 <button className="outline-none">-</button>
               </div>
 
@@ -56,7 +58,8 @@ const Cards = (props) => {
 
               <div  
                 onClick={AddNum}
-                className="h-6 w-6 flex justify-center items-center bg-black text-white rounded-sm font-bold text-lg cursor-pointer hover:bg-gray-800 active:scale-90 transition">
+                className="h-6 w-6 flex justify-center items-center bg-black text-white 
+                rounded-sm font-bold text-lg cursor-pointer hover:bg-gray-800 active:scale-90 transition">
                 <button className="outline-none">+</button>
               </div>
             </div>
