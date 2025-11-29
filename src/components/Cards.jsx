@@ -35,7 +35,6 @@ const Cards = (props) => {
           
           <div className="flex flex-col">
             <h4 className="font-bold">{props.name}</h4>
-            {/* <p className="text-gray-700 text-[13px]">{props.detail}</p> */}
           </div>
 
           <div className="flex justify-between">
@@ -47,27 +46,34 @@ const Cards = (props) => {
 
 
 
-            <div className="flex justify-between gap-1">
-            
-              <button  
-                onClick={RemoveNum}
-                className="h-6 w-6 flex justify-center items-center bg-gray-400 
-                text-white rounded-sm font-bold text-lg cursor-pointer 
-                hover:bg-gray-600 active:scale-90 transitionoutline-none">
-                  -
-              </button>
+            <div>
+              {num === 0 ? (
+                  <button
+                    onClick={AddNum}
+                      className="py-1 px-2 bg-yellow-300 font-bold text-white rounded">Add Item</button>
+                  ) : (
+                  <div className="flex justify-between gap-1">
+                  <button  
+                    onClick={RemoveNum}
+                    className="h-6 w-6 flex justify-center items-center bg-gray-400 
+                    text-white rounded-sm font-bold text-lg cursor-pointer 
+                    hover:bg-gray-600 active:scale-90 transitionoutline-none">
+                    -
+                  </button>
 
-              <div className="h-6 w-6 px-2 bg-gray-400 text-white rounded-sm font-bold">
-                {num}
-              </div>
+                  <div className="h-6 w-6 px-2 bg-gray-400 text-white rounded-sm font-bold">
+                    {num}
+                  </div>
 
-              <button  
-                onClick={AddNum}
-                className="h-6 w-6 flex justify-center items-center bg-gray-400 
-                text-white rounded-sm font-bold text-lg cursor-pointer 
-                hover:bg-gray-800 active:scale-90 transition outline-none">
+                  <button  
+                    onClick={AddNum}
+                    className="h-6 w-6 flex justify-center items-center bg-gray-400 
+                     text-white rounded-sm font-bold text-lg cursor-pointer 
+                     hover:bg-gray-500 active:scale-90 transition outline-none">
                   +
-              </button>
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
