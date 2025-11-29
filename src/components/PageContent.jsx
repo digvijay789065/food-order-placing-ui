@@ -6,6 +6,7 @@ import BigCards from "./BigCards";
 import Burger from '..//../public/images/burger.png'
 import Pizza from '..//../public/images/pizza.png'
 import HotChoco from '..//../public/images/hotchocolate.png'
+import FafdaJalebi from '..//../public/images/fafda-jalebi.png'
 const PageContent = () => {
 
 const items =[
@@ -22,6 +23,12 @@ const items =[
             description: "A molten wave of stretchy cheese that pulls like it’s begging you to take that bite!"
         },
         {
+            img: FafdaJalebi,
+            title:"Crispy Fafda with Sweet Jalebi Delight",
+            alt: "fafda jalebi",
+            description: "A perfect harmony of crunchy fafda and syrupy jalebi that dances on your taste buds!"
+        },
+        {
             img: HotChoco,
             title:"Cocoa Burst Supreme Hot Chocolate",
             alt: "hot chocolate",
@@ -30,7 +37,7 @@ const items =[
     ]
 
   return (
-    <div className="w-full">
+    <div className="max-w-full">
       <Navbar />
       <div className="flex justify-between mr-10">
         <LeftContent />
