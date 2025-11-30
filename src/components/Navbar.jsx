@@ -6,6 +6,14 @@ import LocationBar from './Navbar/LocationBar';
 import { RiArrowUpDoubleLine } from "react-icons/ri";
 
 const Navbar = () => {
+  
+  const scrollDown = () => {
+      window.scrollBy({
+        top: 700,        // scroll amount
+        behavior: "smooth"
+      });
+    };
+
   return (
     <div>
      <div className='relative h-[95vh] w-full bg-yellow-400'>
@@ -21,8 +29,12 @@ const Navbar = () => {
        <Card1 />
        <Card2 />
       </div>
-      <div className='flex text-4xl items-center justify-center text-white'>
+      <div className='text-center'>
+        <button className='text-7xl text-white active:scale-90 relative hover:text-gray-200'
+          onClick={scrollDown}
+          >
         <RiArrowUpDoubleLine />
+      </button>
       </div>
      </div>
     </div>

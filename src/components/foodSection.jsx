@@ -47,5 +47,5 @@ const FoodSection = ({ title, tagline, data, onAdd, onRemove }) => {
     </div>
   );
 };
-
+  
 export default FoodSection;
