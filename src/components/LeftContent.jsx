@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Bottom from "./Bottom";
 import FoodSection from "./foodSection";
-import { chinese, punjabi, gujrati, southind } from "./menuData/foodData";
+import { chinese, punjabi, gujrati, southind, rajasthani } from "./menuData/foodData";
 
 const LeftContent = () => {
   const [totalItems, setTotalItems] = useState(0);
@@ -20,13 +20,6 @@ const LeftContent = () => {
   return (
     <div className="relative p-10 flex flex-col gap-20">
 
-      <FoodSection
-        title="Chinese"
-        tagline="A world of flavors in every chopstick pick!"
-        data={chinese}
-        onAdd={handleAdd}
-        onRemove={handleRemove}
-      />
 
       <FoodSection
         title="Punjabi"
@@ -35,11 +28,25 @@ const LeftContent = () => {
         onAdd={handleAdd}
         onRemove={handleRemove}
       />
+      <FoodSection
+        title="Rajasthani"
+        tagline="Padharo! Dive into the royal flavors of Rajasthan!"
+        data={rajasthani}
+        onAdd={handleAdd}
+        onRemove={handleRemove}
+      />
 
       <FoodSection
         title="South Indian"
         tagline="Where every bite feels like a coastal breeze!"
         data={southind}
+        onAdd={handleAdd}
+        onRemove={handleRemove}
+      />
+      <FoodSection
+        title="Chinese"
+        tagline="A world of flavors in every chopstick pick!"
+        data={chinese}
         onAdd={handleAdd}
         onRemove={handleRemove}
       />

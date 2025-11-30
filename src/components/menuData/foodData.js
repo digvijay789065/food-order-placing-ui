@@ -237,3 +237,66 @@ export const southind = [
     price: 79,
   },
 ];
+
+export const rajasthani = [
+  {
+    img: "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_960,w_960//InstamartAssets/2/Dal_Baati_Churma.webp?updatedAt=1730794235991",
+    name: "Dal Baati Churma",
+    price: 179,
+  },
+  {
+    img: "https://cdn1.foodviva.com/static-content/food-images/rajasthani-recipes/gatte-ki-sabzi/gatte-ki-sabzi.jpg",
+    name: "Gatte ki Sabzi",
+    price: 119,
+  },
+  {
+    img: "https://i.ytimg.com/vi/ZtewByr93oY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBxupy1zFejTM6LHaqP6nruy9MGbA",
+    name: "Mawa Kachori",
+    price: 65,
+  },
+  {
+    img: "https://rajasthantourismbuzz.wordpress.com/wp-content/uploads/2013/07/g4.jpg",
+    name: "Mawa Ghewar",
+    price: 85,
+  },
+  {
+    img: "https://www.whiskaffair.com/wp-content/uploads/2020/09/Ker-Sangri-2-3.jpg",
+    name: "Ker Sangri",
+    price: 89,
+  },
+  {
+    img: "https://cdn.uengage.io/uploads/28289/image-QD9Q36-1723285072.jpg",
+    name: "Pyaaz Kachori",
+    price: 49,
+  },
+  {
+    img: "https://static.toiimg.com/thumb/55836049.cms?width=1200&height=900",
+    name: "Mirchi Vada",
+    price: 59,
+  },
+  {
+    img: "https://i.pinimg.com/originals/18/cc/ca/18ccca3c941c62f147a18c3faede0f58.jpg",
+    name: "Bajre Ki Roti with Garlic Chutney",
+    price: 55,
+  },
+  {
+    img: "https://www.cookingcarnival.com/wp-content/uploads/2021/09/Churma-ladoo-recipe.jpg",
+    name: "Churma Laddoo",
+    price: 39,
+  },
+  {
+    img: "https://images.getrecipekit.com/20221019114738-moong-20dal-20halwa.jpg?aspect_ratio=16:9&quality=90&",
+    name: "Moong Dal Halwa",
+    price: 29,
+  },
+  {
+    img: "https://i.ytimg.com/vi/__Y9UL19xvk/maxresdefault.jpg",
+    name: "Kalakand",
+    price: 45,
+  },
+  {
+    img: "https://i.ytimg.com/vi/xjC04vCTHVU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBfzEFQ62TP6eXPWbx_u5pgxAK55w",
+    name: "Balushahi",
+    price: 65,
+  }
+];
