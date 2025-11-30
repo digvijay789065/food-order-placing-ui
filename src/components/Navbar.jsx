@@ -29,8 +29,8 @@ const Navbar = () => {
        <Card1 />
        <Card2 />
       </div>
-      <div className='text-center'>
-        <button className='text-7xl text-white active:scale-90 relative hover:text-gray-200'
+      <div className='flex items-center justify-center'>
+        <button className='text-5xl outline-none text-white active:scale-90 relative hover:text-gray-200'
           onClick={scrollDown}
           >
         <RiArrowUpDoubleLine />
