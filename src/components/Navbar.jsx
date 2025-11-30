@@ -19,13 +19,13 @@ const Navbar = () => {
      <div className='relative h-[95vh] w-full bg-yellow-400'>
       <Header />
           
-      <div className='flex flex-wrap flex-col md:flex-row items-center justify-center gap-5 mt-10'>
+      <div className='flex flex-wrap flex-col md:flex-row items-center justify-center gap-5 mt-8'>
        <SearchBar />
        <LocationBar />            
       </div>
 
       <div 
-      className='relative z-0 flex flex-wrap gap-20 items-center justify-center mt-16'>
+      className='relative z-0 flex flex-wrap gap-20 items-center justify-center mt-14'>
        <Card1 />
        <Card2 />
       </div>
