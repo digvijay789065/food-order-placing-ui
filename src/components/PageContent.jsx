@@ -7,6 +7,9 @@ import Burger from '..//../public/images/burger.png'
 import Pizza from '..//../public/images/pizza.png'
 import HotChoco from '..//../public/images/hotchocolate.png'
 import FafdaJalebi from '..//../public/images/fafda-jalebi.png'
+import MobileView from '..//../public/images/mobile-view.png'
+import Jetha from '..//../public/images/jetha.png'
+
 const PageContent = () => {
 
 const items =[
@@ -46,6 +49,18 @@ const items =[
         <BigCards
         items={items}
         />
+        <div className="h-[60vh] bg-yellow-400 flex items-center justify-between">
+          <div className="p-10 whitespace-nowrap">
+            <h4 className="text-3xl text-white font-extrabold">DOWNLOAD OUR MOBILE APP</h4>
+            <p className="text-xl text-center">Order you favourite food right from your Phones</p>
+          </div>
+          <div>
+            <img className="h-[60vh] drop-shadow-2xl drop-shadow-black/60" src={Jetha} alt="" />
+          </div>
+          <div className="h-full">
+            <img className="h-full drop-shadow-2xl drop-shadow-black/60" src={MobileView} alt="" />
+          </div>
+        </div>
     </div>
   );
 };
