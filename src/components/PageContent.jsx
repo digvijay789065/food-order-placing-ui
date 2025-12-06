@@ -3,12 +3,12 @@ import LeftContent from "./LeftContent";
 import RightContent from "./RightContent";
 import Navbar from "./Navbar";
 import BigCards from "./BigCards";
-import Burger from '..//../public/images/burger.png'
-import Pizza from '..//../public/images/pizza.png'
-import HotChoco from '..//../public/images/hotchocolate.png'
-import FafdaJalebi from '..//../public/images/fafda-jalebi.png'
-import MobileView from '..//../public/images/mobile-view.png'
-import Jetha from '..//../public/images/jetha.png'
+import Burger from '..//../public/images/burger.webp'
+import Pizza from '..//../public/images/pizza.webp'
+import HotChoco from '..//../public/images/hotchocolate.webp'
+import FafdaJalebi from '..//../public/images/fafda-jalebi.webp'
+import MobileView from '..//../public/images/mobile-view.webp'
+import Jetha from '..//../public/images/jetha.webp'
 
 const PageContent = () => {
 

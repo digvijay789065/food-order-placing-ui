@@ -1,5 +1,5 @@
 import { MdArrowOutward } from "react-icons/md";
-import logo from '../../public/logo.png';
+import logo from '../../public/logo.webp';
 import React, { useEffect, useState } from "react";
 import Register from "./Register";
 

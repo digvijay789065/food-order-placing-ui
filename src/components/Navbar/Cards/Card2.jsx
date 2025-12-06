@@ -1,4 +1,4 @@
-import pizza from '../../../assets/pizza.png'
+import pizza from '../../../assets/pizza.webp'
 import { FaArrowRight } from "react-icons/fa6";
 
 const Card2 = () => {

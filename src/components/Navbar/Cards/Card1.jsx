@@ -1,4 +1,4 @@
-import jalebi from "../../../assets/jalebi.png"
+import jalebi from "../../../assets/jalebi.webp"
 import { FaArrowRight } from "react-icons/fa6";
 
 
