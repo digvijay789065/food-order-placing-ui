@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import Bottom from "./Bottom";
 import FoodSection from "./foodSection";
-import { chinese, punjabi, gujrati, southind, rajasthani } from "./menuData/foodData";
+import {
+  chinese,
+  punjabi,
+  gujrati,
+  southind,
+  rajasthani,
+} from "./menuData/foodData";
+import "../styles/LeftContent.css"
 
 const LeftContent = () => {
   const [totalItems, setTotalItems] = useState(0);
@@ -18,9 +25,7 @@ const LeftContent = () => {
   };
 
   return (
-    <div className="relative p-10 flex flex-col gap-20">
-
-
+    <div className="left-content">
       <FoodSection
         title="Punjabi"
         tagline="Where every bite feels like a warm desi hug!"
@@ -28,6 +33,7 @@ const LeftContent = () => {
         onAdd={handleAdd}
         onRemove={handleRemove}
       />
+
       <FoodSection
         title="Rajasthani"
         tagline="Padharo! Dive into the royal flavors of Rajasthan!"
@@ -43,6 +49,7 @@ const LeftContent = () => {
         onAdd={handleAdd}
         onRemove={handleRemove}
       />
+
       <FoodSection
         title="Chinese"
         tagline="A world of flavors in every chopstick pick!"
@@ -60,10 +67,8 @@ const LeftContent = () => {
       />
 
       <div
-        className={`fixed bottom-5 left-1/2 -translate-x-1/2 w-[90%] md:w-auto transition-all duration-500 z-50 ${
-          totalItems > 0
-            ? "opacity-100 translate-y-0"
-            : "opacity-0 translate-y-10 pointer-events-none"
+        className={`cart-bar ${
+          totalItems > 0 ? "cart-visible" : "cart-hidden"
         }`}
       >
         <Bottom items={totalItems} price={totalPrice} />

@@ -1,0 +1,55 @@
+/* Wrapper */
+.page-wrapper {
+  max-width: 100%;
+}
+
+/* Top section layout */
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2.5rem; /* mr-10 */
+}
+
+/* Yellow app banner section */
+.app-banner {
+  height: 60vh;
+  background-color: #facc15; /* Tailwind yellow-400 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Text section */
+.app-text {
+  padding: 2.5rem; /* p-10 */
+  white-space: nowrap;
+}
+
+.app-text h4 {
+  font-size: 1.875rem; /* text-3xl */
+  color: white;
+  font-weight: 800; /* font-extrabold */
+  margin: 0;
+}
+
+.app-text p {
+  font-size: 1.25rem; /* text-xl */
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* Left image (Jetha) */
+.app-image-left img {
+  height: 60vh;
+  filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.6));
+}
+
+/* Right mobile image */
+.app-image-right {
+  height: 100%;
+}
+
+.app-image-right img {
+  height: 100%;
+  filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.6));
+}

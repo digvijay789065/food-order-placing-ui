@@ -1,0 +1,99 @@
+.footer {
+  background-color: #1f2937; /* gray-800 */
+  color: white;
+  padding-top: 3rem;
+}
+
+/* Top area */
+.footer-top {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.footer-brand {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.footer-brand h4 {
+  color: #22c55e;
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+/* Link grid */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-column {
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-column h4 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.social-icons a {
+  color: white;
+  transition: transform 0.1s ease;
+}
+
+.social-icons a:active {
+  transform: scale(0.9);
+}
+
+/* Bottom strip */
+.footer-bottom {
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-bottom h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.store-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.store-buttons img {
+  height: 65px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.store-buttons img:active {
+  transform: scale(0.96);
+}

@@ -1,6 +1,7 @@
 import Cards from "./Cards";
 import { FaSort } from "react-icons/fa";
 import { useState } from "react";
+import "../styles/foodSection.css"
 
 const FoodSection = ({ title, tagline, data, onAdd, onRemove }) => {
   const [items, setItems] = useState(data);
@@ -16,23 +17,23 @@ const FoodSection = ({ title, tagline, data, onAdd, onRemove }) => {
   };
 
   return (
-    <div className="mb-16">
-      <div className="flex items-center justify-between mb-4">
+    <div className="food-section">
+      <div className="food-header">
         <div>
-          <h4 className="text-2xl font-bold">{title}</h4>
-          <p className="text-gray-600">{tagline}</p>
+          <h4 className="food-title">{title}</h4>
+          <p className="food-tagline">{tagline}</p>
         </div>
 
         <button
           onClick={handleInc}
           onDoubleClick={handleDec}
-          className="bg-white drop-shadow-xl hover:bg-gray-100 rounded-2xl h-10 w-16 flex items-center justify-center"
+          className="sort-btn"
         >
           Sort <FaSort />
         </button>
       </div>
 
-      <div className="flex flex-wrap justify-between gap-10">
+      <div className="food-grid">
         {items.map((elem, index) => (
           <Cards
             key={index}
@@ -47,5 +48,5 @@ const FoodSection = ({ title, tagline, data, onAdd, onRemove }) => {
     </div>
   );
 };
-  
+
 export default FoodSection;

@@ -1,0 +1,61 @@
+.navbar-hero {
+  position: relative;
+  height: 95vh;
+  width: 100%;
+  background-color: #facc15; /* yellow-400 */
+}
+
+/* Search + Location row */
+.navbar-search-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+/* Desktop layout (md:flex-row) */
+@media (min-width: 768px) {
+  .navbar-search-row {
+    flex-direction: row;
+  }
+}
+
+/* Cards row */
+.navbar-cards-row {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem; /* gap-20 */
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.5rem;
+}
+
+/* Scroll button area */
+.navbar-scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.scroll-btn {
+  font-size: 3rem; /* text-5xl */
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.1s ease, color 0.2s ease;
+  position: relative;
+}
+
+.scroll-btn:hover {
+  color: #e5e7eb; /* gray-200 */
+}
+
+.scroll-btn:active {
+  transform: scale(0.9);
+}

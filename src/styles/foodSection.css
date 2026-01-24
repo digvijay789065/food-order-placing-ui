@@ -1,0 +1,53 @@
+/* Section spacing (mb-16) */
+.food-section {
+  margin-bottom: 4rem;
+}
+
+/* Header layout */
+.food-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+/* Title */
+.food-title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Tagline */
+.food-tagline {
+  color: #4b5563; /* gray-600 */
+  margin-top: 0.25rem;
+}
+
+/* Sort button */
+.sort-btn {
+  background-color: white;
+  border: none;
+  border-radius: 1rem; /* rounded-2xl */
+  height: 2.5rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15); /* drop-shadow-xl */
+  transition: background-color 0.2s ease;
+}
+
+.sort-btn:hover {
+  background-color: #f3f4f6; /* gray-100 */
+}
+
+/* Cards layout */
+.food-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2.5rem; /* gap-10 */
+}

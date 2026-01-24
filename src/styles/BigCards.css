@@ -1,0 +1,91 @@
+/* Fullscreen section */
+.bigcards-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navigation arrows */
+.nav-btn {
+  font-size: 3.75rem; /* text-6xl */
+  margin: 0 1.25rem; /* mx-5 */
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.1s ease;
+}
+
+.nav-btn:active {
+  transform: scale(0.9);
+}
+
+/* Center content layout */
+.bigcards-content {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem; /* gap-10 */
+}
+
+/* Image container */
+.bigcards-image {
+  height: 90vh;
+  width: 45vw;
+  filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.5));
+}
+
+.bigcards-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Text section */
+.bigcards-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.bigcards-text-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* gap-4 */
+}
+
+/* Title */
+.bigcards-title {
+  font-size: 3rem; /* text-5xl */
+  font-weight: bold;
+  color: #facc15; /* yellow-400 */
+  width: 40vw;
+  margin: 0;
+}
+
+/* Description */
+.bigcards-desc {
+  font-size: 1.125rem; /* text-lg */
+  width: 30vw;
+}
+
+/* Order button */
+.order-btn {
+  padding: 0.75rem;
+  border: 1px solid #000;
+  width: fit-content;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: transparent;
+}
+
+.order-btn:active {
+  transform: scale(0.95);
+}
+
+.order-btn:hover {
+  background-color: #facc15;
+  color: white;
+}
